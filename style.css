@@ -1818,8 +1818,6 @@ a.pure-button-selected {
 	transition: all 200ms ease-in-out 0s;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
 }
 
 @media (min-width: 768px) {
