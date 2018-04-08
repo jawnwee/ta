@@ -1855,8 +1855,7 @@ a.pure-button-selected {
 @media (min-width: 768px) {
 	.single .entry-post {
 		float: left;
-		width: 74.2857142857%;
-		margin-right: 2.8571428571%;
+		width: 100%;
 	}
 
 	.single .entry-meta {
