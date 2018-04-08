@@ -1811,11 +1811,6 @@ a.pure-button-selected {
 	display: block;
 }
 
-.thumbnail-link:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-
 .thumbnail-link img {
 	display: block;
 	width: 100%;
