@@ -10,7 +10,7 @@ $layout = silvia_mod( $prefix . 'grid-layout' );
 
 // Display the correct size
 if ( $layout == '3-col' || $layout == '4-col' ) {
-	$size = 'medium';
+	$size = 'large';
 } else {
 	$size = 'large';
 }

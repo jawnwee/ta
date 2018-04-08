@@ -4,10 +4,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo" <?php hybrid_attr( 'footer' ); ?>>
 		<div class="wide-container">
 
-			<div class="site-info">
-				<?php silvia_footer_text(); ?>
-			</div><!-- .site-info -->
-
 			<?php silvia_social_links(); // Get the social links data. ?>
 
 		</div>
