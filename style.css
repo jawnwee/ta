@@ -606,9 +606,6 @@ iframe,
 object {
     width: 100%; 
 	max-width: 100%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .alignleft {
@@ -2518,3 +2515,8 @@ form.comment-form .comment-form-url {
 	color: #555;
 }
 
+.instagram-media {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
