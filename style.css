@@ -2515,8 +2515,8 @@ form.comment-form .comment-form-url {
 	color: #555;
 }
 
-iframe.instagram-media {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+.instagram-media {
+	display: block !important;	
+    margin-left: auto !important;
+    margin-right: auto !important;	
 }
