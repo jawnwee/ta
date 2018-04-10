@@ -1418,7 +1418,7 @@ button:active,
 input[type='button']:active,
 input[type='reset']:active,
 input[type='submit']:active {
-	border-color: #000\9;
+	border-color: #000;
 	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
 }
@@ -1855,7 +1855,7 @@ a.pure-button-selected {
 @media (min-width: 768px) {
 	.single .entry-post {
 		float: left;
-		width: 70%;
+		width: 74.2857142857%;
 	}
 
 	.single .entry-meta {
