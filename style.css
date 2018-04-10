@@ -1803,6 +1803,8 @@ a.pure-button-selected {
 @media (min-width: 768px) {
 	.entry-post {
 		font-size: 20px;
+		float: left;
+		width: 74.2857142857%;
 	}
 }
 
