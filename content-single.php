@@ -26,6 +26,7 @@
 	</div>
 
 	<div class="entry-meta">
+					test
 	</div>
 	
 </article><!-- #post-## -->
