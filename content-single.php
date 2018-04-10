@@ -26,9 +26,6 @@
 	</div>
 
 	<div class="entry-meta">
-		<?php the_title( '<h1 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '>', '</h1>' ); ?>
-		<?php silvia_posted_on(); ?>
-		<?php get_template_part( 'loop', 'nav' ); // Loads the loop-nav.php template  ?>
 	</div>
 	
 </article><!-- #post-## -->
