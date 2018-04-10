@@ -23,8 +23,9 @@
 
 		<?php silvia_related_posts(); // Display the related posts. ?>
 
-		<div class="entry-meta">
-		</div>
+	</div>
+
+	<div class="entry-meta">
 	</div>
 	
 </article><!-- #post-## -->
