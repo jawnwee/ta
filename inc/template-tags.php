@@ -44,36 +44,6 @@ function silvia_site_branding() {
 }
 endif;
 
-if ( ! function_exists( 'silvia_callout' ) ) :
-/**
- * Home page callout
- * 
- * @since  1.0.0
- */
-function silvia_callout() {
-
-	// Theme prefix
-	$prefix = 'silvia-';
-
-	// Get the data set in customizer
-	$text = silvia_mod( $prefix . 'home-callout' );
-
-	// If polylang plugin active, display the translation strings
-	$callout = '';
-	if ( function_exists( 'pll_the_languages' ) ) {
-		$callout = pll__( $text );
-	} else {
-		$callout = $text;
-	}
-
-	// Display the data
-	echo '<div class="callout page-header">';
-		echo '<p>' . strip_tags( $callout ) . '</p>';
-	echo '</div>';
-
-}
-endif;
-
 if ( ! function_exists( 'silvia_main_container' ) ) :
 /**
  * Main container class

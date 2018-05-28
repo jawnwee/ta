@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-	<?php silvia_callout(); // Get the callout data. ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main" <?php hybrid_attr( 'content' ); ?>>
 
