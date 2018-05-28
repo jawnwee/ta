@@ -25,7 +25,8 @@ function silvia_enqueue() {
 	if ( ! is_child_theme() && WP_DEBUG || SCRIPT_DEBUG ) {
 
 		// Load main stylesheet
-		wp_enqueue_style( 'silvia-style', get_stylesheet_directory_uri() . '/style.min.css', array(), filemtime( get_stylesheet_directory() . 'style.min.css' ) );
+		wp_enqueue_style( 'theme-styles', get_stylesheet_directory_uri() . '/style.min.css', array(), filemtime( get_stylesheet_directory() . 'style.min.css' ) );
+
 
 		// Load custom js plugins.
 		wp_enqueue_script( 'silvia-plugins', trailingslashit( get_template_directory_uri() ) . 'assets/js/plugins.min.js', array( 'jquery' ), null, true );
@@ -36,7 +37,7 @@ function silvia_enqueue() {
 	} else {
 
 		// Load main stylesheet
-		wp_enqueue_style( 'silvia-style', get_stylesheet_directory_uri() . '/style.min.css', array(), filemtime( get_stylesheet_directory() . 'style.min.css' ) );
+		wp_enqueue_style( 'theme-styles', get_stylesheet_directory_uri() . '/style.min.css', array(), filemtime( get_stylesheet_directory() . 'style.min.css' ) );
 
 
 		// Load custom js plugins.
