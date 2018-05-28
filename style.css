@@ -1506,7 +1506,7 @@ a.pure-button-selected {
 	color: #777;
 }
 
-#logo {
+div#logo {
 	max-width: 225px;
     margin-top: 6px;
 } 
@@ -2508,12 +2508,10 @@ form.comment-form .comment-form-url {
 
 .comment-navigation .nav-previous {
 	display: inline;
-	float: left;
 }
 
 .comment-navigation .nav-next {
 	display: inline;
-	float: right;
 	text-align: right;
 }
 
