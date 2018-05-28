@@ -1506,6 +1506,11 @@ a.pure-button-selected {
 	color: #777;
 }
 
+#logo {
+	max-width: 225px;
+    margin-top: 6px;
+} 
+
 /**
  * Page header
  */
