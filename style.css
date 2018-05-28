@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 /*!
- * Theme Name: Silvia
+ * Theme Name: The Accounts
  * Theme URI: https://themephe.com/items/silvia/
  * Description: Silvia is a light, bright and beautiful photography WordPress theme. It’s ideal for website focused on photography, graphic design, fashion, art, architecture, interior design, and other creative fields! Key features are responsive, retina support and SEO friendly with Schema.org markup. The theme options are powered by easy-to-use Customizer, allows you to modify various options including colors, typography, layout, etc. It also smoothly integrated with Jetpack and Polylang plugin.
  * Version: 1.0.4
@@ -596,8 +596,7 @@ img[class*='attachment-'] {
 .wp-smiley {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0; 
-
+    padding: 0;
     border: 0;
 }
 

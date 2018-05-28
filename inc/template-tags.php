@@ -3,9 +3,9 @@
  * Custom template tags for this theme.
  * Eventually, some of the functionality here could be replaced by core features.
  * 
- * @package    Silvia
- * @author     ThemePhe
- * @copyright  Copyright (c) 2015, ThemePhe
+ * @package    The Accounts
+ * @author     jylee
+ * @copyright  Copyright (c) 2018, The Accounts
  * @license    http://www.gnu.org/licenses/gpl-2.0.html
  * @since      1.0.0
  */
