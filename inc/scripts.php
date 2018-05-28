@@ -36,7 +36,8 @@ function silvia_enqueue() {
 	} else {
 
 		// Load main stylesheet
-		wp_enqueue_style( 'silvia-style', trailingslashit( get_template_directory_uri() ) . 'style.min.css' );
+		wp_enqueue_style( 'theme-styles', get_stylesheet_directory_uri() . '/style.css', array(), filemtime( get_stylesheet_directory() . 'style.min.css' ) );
+
 
 		// Load custom js plugins.
 		wp_enqueue_script( 'silvia-scripts', trailingslashit( get_template_directory_uri() ) . 'assets/js/silvia.min.js', array( 'jquery' ), null, true );

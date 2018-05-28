@@ -1405,7 +1405,7 @@ button:active,
 input[type='button']:active,
 input[type='reset']:active,
 input[type='submit']:active {
-	border-color: #000\9;
+	border-color: #000000;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
 }
 
@@ -1491,6 +1491,11 @@ a.pure-button-selected {
 	font-style: italic;
 	color: #777;
 }
+
+div#logo {
+	max-width: 225px;
+    margin-top: 6px;
+} 
 
 /**
  * Page header
@@ -2485,12 +2490,10 @@ form.comment-form .comment-form-url {
 
 .comment-navigation .nav-previous {
 	display: inline;
-	float: right;
 }
 
 .comment-navigation .nav-next {
 	display: inline;
-	float: left;
 	text-align: left;
 }
 
