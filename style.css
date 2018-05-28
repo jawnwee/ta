@@ -1509,8 +1509,12 @@ a.pure-button-selected {
 
 div#logo {
 	max-width: 225px;
-    margin-top: 6px;
-} 
+	margin-top: 6px;
+}
+
+header#masthead {
+	border-bottom: 1px solid #E8E8E8;
+}
 
 /**
  * Page header
