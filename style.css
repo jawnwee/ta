@@ -1572,6 +1572,12 @@ header#masthead {
 .navigation {
 	align-self: flex-end;
 	list-style: none;
+	width: 100%;
+}
+
+.nav-item {
+	display: inline;
+	align-self: flex-end;
 }
 
 .main-navigation {
