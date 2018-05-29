@@ -24,7 +24,7 @@ function silvia_site_branding() {
 	// Get the customizer value.
 	$prefix = 'silvia-';
 	$logo   = silvia_mod( $prefix . 'logo' );
-
+	$categories = get_categories();
 	// Check if logo available, then display it.
 	if ( $logo ) :
 		echo '<div id="logo" itemscope itemtype="http://schema.org/Brand">' . "\n";
@@ -39,6 +39,9 @@ function silvia_site_branding() {
 			echo '<h1 class="site-title" ' . hybrid_get_attr( 'site-title' ) . '><a href="' . esc_url( get_home_url() ) . '" itemprop="url" rel="home"><span itemprop="headline">' . esc_attr( get_bloginfo( 'name' ) ) . '</span></a></h1>'. "\n";
 			echo '<h2 class="site-description" ' . hybrid_get_attr( 'site-description' ) . '>' . esc_attr( get_bloginfo( 'description' ) ) . '</h2>';
 		echo '</div>'. "\n";
+		foreach($categories as $category) {
+			echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+	 }
 	endif;
 
 }

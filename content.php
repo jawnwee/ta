@@ -33,9 +33,6 @@ if ( $layout == '3-col' || $layout == '4-col' ) {
 				$categories_list = get_the_category_list( __( ', ', 'silvia' ) );
 				if ( $categories_list && silvia_categorized_blog() ) :
 			?>
-			<span class="cat-links" <?php hybrid_attr( 'entry-terms', 'category' ); ?>>
-				<?php echo $categories_list; ?>
-			</span>
 			<?php endif; // End if categories ?>
 		<?php endif; ?>
 
