@@ -27,10 +27,12 @@ function silvia_site_branding() {
 	$categories = get_categories();
 	// Check if logo available, then display it.
 	if ( $logo ) :
-		echo '<div id="logo" itemscope itemtype="http://schema.org/Brand">' . "\n";
-			echo '<a href="' . esc_url( get_home_url() ) . '" itemprop="url" rel="home">' . "\n";
-				echo '<img itemprop="logo" src="' . esc_url( $logo ) . '" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" />' . "\n";
-			echo '</a>' . "\n";
+		echo '<div class="navigation-container">';
+			echo '<div id="logo" itemscope itemtype="http://schema.org/Brand">' . "\n";
+				echo '<a href="' . esc_url( get_home_url() ) . '" itemprop="url" rel="home">' . "\n";
+					echo '<img itemprop="logo" src="' . esc_url( $logo ) . '" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" />' . "\n";
+				echo '</a>' . "\n";
+			echo '</div>';
 			echo '<ul class="navigation">';
 				foreach($categories as $category) {
 					echo '<li class="nav-item"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
