@@ -1568,7 +1568,7 @@ header#masthead {
 \*------------------------------------*/
 .navigation-container {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .navigation {
@@ -1577,12 +1577,15 @@ header#masthead {
 }
 
 .nav-item {
+	display: inline;
+	align-self: flex-end;
+}
+
+a.nav-link {
 	font-family: 'Oswald', sans-serif;
     font-weight: 400; 
     font-style: normal;
     color: #454545;
-	display: inline;
-	align-self: flex-end;
 }
 
 .main-navigation {
