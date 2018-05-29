@@ -1566,7 +1566,8 @@ header#masthead {
 /*------------------------------------*	$NAVIGATIONS
 \*------------------------------------*/
 .navigation {
-	align-self: flex-start;
+	align-self: flex-end;
+	list-style: none;
 }
 
 .main-navigation {
