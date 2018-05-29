@@ -1508,7 +1508,6 @@ a.pure-button-selected {
 }
 
 div#logo {
-	display: flex;
 	max-width: 225px;
 	margin-top: 6px;
 }
@@ -1565,6 +1564,10 @@ header#masthead {
 
 /*------------------------------------*	$NAVIGATIONS
 \*------------------------------------*/
+.navigation-container {
+	display: flex;
+}
+
 .navigation {
 	align-self: flex-end;
 	list-style: none;
