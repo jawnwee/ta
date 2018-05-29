@@ -35,7 +35,7 @@ function silvia_site_branding() {
 			echo '</div>';
 			echo '<ul class="navigation">';
 				foreach($categories as $category) {
-					echo '<li class="nav-item"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
+					echo '<li class="nav-item"><a class="nav-link" href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
 				}
 			echo '</ul>';
 		echo '</div>' . "\n";
