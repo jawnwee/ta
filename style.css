@@ -1508,6 +1508,7 @@ a.pure-button-selected {
 }
 
 div#logo {
+	align-self: flex-start;
 	max-width: 225px;
 	margin-top: 6px;
 }
