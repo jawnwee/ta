@@ -31,10 +31,12 @@ function silvia_site_branding() {
 			echo '<a href="' . esc_url( get_home_url() ) . '" itemprop="url" rel="home">' . "\n";
 				echo '<img itemprop="logo" src="' . esc_url( $logo ) . '" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" />' . "\n";
 			echo '</a>' . "\n";
+			echo '<ul class="navigation">';
+				foreach($categories as $category) {
+					echo '<li class="nav-item"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
+				}
+			echo '</ul>';
 		echo '</div>' . "\n";
-		foreach($categories as $category) {
-			echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
-	 	}
 
 	// If not, then display the Site Title and Site Description.
 	else :
