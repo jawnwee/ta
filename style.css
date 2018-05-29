@@ -1510,7 +1510,8 @@ a.pure-button-selected {
 div#logo {
 	align-self: flex-start;
 	max-width: 225px;
-	margin-top: 6px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 header#masthead {
@@ -1570,9 +1571,15 @@ header#masthead {
 }
 
 .navigation {
+	display: flex;
 	align-self: flex-end;
 	list-style: none;
 	width: 100%;
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+    color: #454545;
 }
 
 .nav-item {
