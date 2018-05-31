@@ -1580,6 +1580,7 @@ header#masthead {
 .nav-item {
 	display: inline;
 	align-self: flex-end;
+	margin-right: 15px;
 }
 
 a.nav-link {
