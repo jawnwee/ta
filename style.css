@@ -1542,6 +1542,8 @@ div#logo {
 	max-width: 225px;
 	margin-top: auto;
 	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header#masthead {
