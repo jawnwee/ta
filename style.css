@@ -563,7 +563,7 @@ body {
 .thumbnail-container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 945px;
+	max-width: 945px;
 	height: 375px;
 	position: relative;
 	overflow: hidden;
