@@ -565,7 +565,7 @@ body {
 	margin-right: auto;
 	max-width: 945px;
 	height: 375px;
-	position: relative;
+	position: absolute;
 	overflow: hidden;
 }
 
@@ -1882,6 +1882,10 @@ a.nav-link {
 		float: left;
 		width: 74.2857142857%;
 	}
+}
+
+.front-page {
+	position: relative;
 }
 
 .thumbnail-link {
