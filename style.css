@@ -1906,6 +1906,7 @@ a.nav-link {
 
 .thumbnail-detail {
 	text-align: center;
+	position: absolute;
 }
 
 .thumbnail-detail .entry-title {
