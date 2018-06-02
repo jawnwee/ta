@@ -1778,8 +1778,11 @@ a.nav-link {
 	margin-bottom: 60px;
 }
 
-#content {
+#main {
 	margin-top: 20px;
+}
+
+#content {
 	background-color: #F7F7F7;
 }
 
