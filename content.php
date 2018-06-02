@@ -19,8 +19,9 @@ $layout = silvia_mod( $prefix . 'grid-layout' );
 		</a>
 		<div class="thumbnail-detail">
 		
-		<?php the_title( sprintf( '<h2 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '><a href="%s" rel="bookmark" itemprop="url">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
+		<div class="entry-container">
+			<?php the_title( sprintf( '<h2 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '><a href="%s" rel="bookmark" itemprop="url">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		</div>
 		<?php if ( 'post' == get_post_type() ) : ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
