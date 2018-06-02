@@ -565,7 +565,7 @@ body {
 	margin-right: auto;
 	max-width: 945px;
 	height: 375px;
-	position: absolute;
+	position: relative;
 	overflow: hidden;
 }
 
@@ -1884,10 +1884,6 @@ a.nav-link {
 	}
 }
 
-.front-page {
-	position: relative;
-}
-
 .thumbnail-link {
 	position: relative;
 	display: block;
@@ -1927,7 +1923,6 @@ a.nav-link {
     padding: 1.6rem 3.5rem;
     text-align: center;
 	width: 55%;
-	position: absolute;
 }
 
 .thumbnail-detail .entry-title a {
