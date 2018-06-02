@@ -1510,13 +1510,12 @@ a.pure-button-selected {
 
 div#logo {
 	align-self: flex-start;
-	max-width: 225px;
+	max-height: 60px;
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
 header#masthead {
-	margin-bottom: 20px;
 	border-bottom: 1px solid #E8E8E8;
 }
 
@@ -1780,6 +1779,7 @@ a.nav-link {
 }
 
 #content {
+	margin-top: 20px;
 	background-color: #F7F7F7;
 }
 
