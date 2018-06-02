@@ -1923,6 +1923,7 @@ a.nav-link {
     padding: 1.6rem 3.5rem;
     text-align: center;
 	width: 55%;
+	position: absolute;
 }
 
 .thumbnail-detail .entry-title a {
