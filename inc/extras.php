@@ -59,18 +59,6 @@ function silvia_post_classes( $classes ) {
 		$classes[] = 'no-post-thumbnail';
 	}
 
-	// Posts grid layout
-	$layout = silvia_mod( $prefix . 'grid-layout' );
-	if ( ! is_single() && ! is_page() ) {
-		if ( $layout == '2-col' ) {	
-			$classes[] = 'post-grid-2-col';
-		} elseif ( $layout == '3-col' ) {
-			$classes[] = 'post-grid-3-col';
-		} else {
-			$classes[] = 'post-grid-4-col';
-		}
-	}
-
 	return $classes;
 }
 add_filter( 'post_class', 'silvia_post_classes' );

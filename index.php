@@ -5,7 +5,7 @@
 
 			<?php if ( have_posts() ) : ?>
 
-				<?php /* Start the Loop */ ?>
+				<?php /* Start the loop for existing posts*/ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'content', 'home' ); ?>
