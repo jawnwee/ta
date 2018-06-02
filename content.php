@@ -25,8 +25,9 @@ $layout = silvia_mod( $prefix . 'grid-layout' );
 						if ( $categories_list && silvia_categorized_blog() ) :
 					?>
 					<?php endif; // End if categories ?>
-				<?php endif; ?>		</a>
+				<?php endif; ?>
 			</div>
+		</a>
 	<?php endif; ?>
 	
 </article><!-- #post-## -->
