@@ -564,7 +564,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 945px;
-	max-height: 375px;
+	height: 375px;
 	position: relative;
 	overflow: hidden;
 }
@@ -577,6 +577,12 @@ body {
 	-webkit-transform: translate(-50%,-50%);
 		-ms-transform: translate(-50%,-50%);
 			transform: translate(-50%,-50%);
+}
+
+@media (min-width: 240px) and (max-width: 1170px) {
+    .thumbnail-container {
+		height: 200px;
+    }
 }
 
 /*------------------------------------*	$SHARED
