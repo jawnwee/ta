@@ -13,7 +13,7 @@ $layout = silvia_mod( $prefix . 'grid-layout' );
 
 	<?php if ( has_post_thumbnail() ) : ?>
 		<a class="thumbnail-link" href="<?php the_permalink(); ?>">
-			<?php the_post_thumbnail( 'large', array( 'class' => 'entry-thumbnail', 'alt' => esc_attr( get_the_title() ) ) ); ?>
+			<?php the_post_thumbnail( 'medium_large', array( 'class' => 'entry-thumbnail', 'alt' => esc_attr( get_the_title() ) ) ); ?>
 		</a>
 	<?php endif; ?>
 
