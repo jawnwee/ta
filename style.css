@@ -1889,7 +1889,7 @@ a.nav-link {
 }
 
 .thumbnail-link {
-	display: inline-block;
+	position: relative;
 }
 
 .thumbnail-link img {
@@ -1928,7 +1928,6 @@ a.nav-link {
 	width: 55%;
     left: 0;
     right: 0;
-	bottom: 0;
 	position: absolute;
 }
 
