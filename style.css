@@ -1514,8 +1514,8 @@ a.pure-button-selected {
  * Header
  */
 .site-header {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 18px;
+	padding-bottom: 18px;
 }
 
 .site-branding {
@@ -1945,7 +1945,7 @@ a.nav-link {
 		padding: 1.0rem 2.0rem;
 	}
 	.entry-container .entry-title {
-		font-size: 1.1rem;
+		font-size: 1.1	rem;
 	}
 }
 
