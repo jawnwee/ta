@@ -17,8 +17,8 @@ $layout = silvia_mod( $prefix . 'grid-layout' );
 				<?php the_post_thumbnail( 'full', array( 'class' => 'entry-thumbnail', 'alt' => esc_attr( get_the_title() ) ) ); ?>
 			</div>
 			<div class="entry-container">
-					<?php the_title( sprintf( '<h2 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '><a href="%s" rel="bookmark" itemprop="url">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-				</div>
+				<?php the_title( sprintf( '<h2 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '><a href="%s" rel="bookmark" itemprop="url">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+			</div>
 		</a>
 	<?php endif; ?>
 	

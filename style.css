@@ -1884,6 +1884,10 @@ a.nav-link {
 	}
 }
 
+.front-page {
+	position: relative;
+}
+
 .thumbnail-link {
 	display: inline-block;
 }
