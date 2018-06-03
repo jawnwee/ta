@@ -1915,7 +1915,6 @@ a.nav-link {
 .thumbnail-detail .entry-title {
 	font-size: 20px;
 	margin-bottom: 8px;
-	text-transform: uppercase;
 }
 
 .entry-container {
@@ -1929,6 +1928,13 @@ a.nav-link {
     left: 0;
     right: 0;
 	position: absolute;
+}
+
+.entry-container .entry-title {
+	font-family: proxima-nova,Helvetica,sans-serif;
+	color: #454545;
+	font-size: 1.8rem;
+    line-height: 1.3;
 }
 
 .thumbnail-detail .entry-title a {
