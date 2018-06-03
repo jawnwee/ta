@@ -573,7 +573,6 @@ body {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	height: 100%;
 	width: auto;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -1925,7 +1924,8 @@ a.nav-link {
 	width: 55%;
     left: 0;
     right: 0;
-    bottom: 0;
+	bottom: 0;
+	position: absolute;
 }
 
 .thumbnail-detail .entry-title a {
