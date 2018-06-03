@@ -1924,6 +1924,9 @@ a.nav-link {
     text-align: center;
 	width: 55%;
 	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .thumbnail-detail .entry-title a {
