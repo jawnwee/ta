@@ -565,13 +565,16 @@ body {
 	margin-right: auto;
 	max-width: 945px;
 	height: 375px;
+	position: relative;
+	overflow: hidden;
 }
 
 .thumbnail-container .entry-thumbnail {
+	position: absolute;
 	left: 50%;
 	top: 50%;
-    height: auto;
-	max-width: 100%;
+	height: 100%;
+	width: auto;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 		transform: translate(-50%,-50%);
