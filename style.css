@@ -1927,7 +1927,7 @@ a.nav-link {
 	width: 55%;
     left: 0;
     right: 0;
-	position: absolute;
+	position: relative;
 }
 
 .entry-container .entry-title {
@@ -1936,6 +1936,16 @@ a.nav-link {
 	font-weight: 300;
 	font-size: 1.8rem;
     line-height: 1.3;
+}
+
+@media (min-width: 768px) {	
+	.entry-container  {
+		width: 90%;
+		padding: 1.0rem 2.0rem;
+	}
+	.entry-container .entry-title {
+		font-size: 1.0rem;
+	}
 }
 
 .entry-title a {
