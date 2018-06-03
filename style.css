@@ -570,10 +570,11 @@ body {
 .thumbnail-container .entry-thumbnail {
 	left: 50%;
 	top: 50%;
-	width: auto;
+    height: auto;
+	max-width: 100%;
 	-webkit-transform: translate(-50%,-50%);
-		-ms-transform: translate(-50%,-50%);
-			transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
 }
 
 @media (min-width: 240px) and (max-width: 767px) {
@@ -1882,7 +1883,7 @@ a.nav-link {
 }
 
 .thumbnail-link {
-	display: block;
+	display: inline-block;
 }
 
 .thumbnail-link img {
