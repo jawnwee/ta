@@ -1933,11 +1933,12 @@ a.nav-link {
 .entry-container .entry-title {
 	font-family: proxima-nova,Helvetica,sans-serif;
 	color: #454545;
+	font-weight: 300;
 	font-size: 1.8rem;
     line-height: 1.3;
 }
 
-.thumbnail-detail .entry-title a {
+.entry-title a {
 	color: #454545;
 }
 
