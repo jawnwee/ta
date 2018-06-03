@@ -1940,11 +1940,12 @@ a.nav-link {
 
 @media (min-width: 240px) and (max-width: 767px) {
 	.entry-container  {
+		margin-top: -3rem;
 		width: 90%;
 		padding: 1.0rem 2.0rem;
 	}
 	.entry-container .entry-title {
-		font-size: 1.0rem;
+		font-size: 1.1rem;
 	}
 }
 
