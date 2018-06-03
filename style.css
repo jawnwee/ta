@@ -565,12 +565,9 @@ body {
 	margin-right: auto;
 	max-width: 945px;
 	height: 375px;
-	position: relative;
-	overflow: hidden;
 }
 
 .thumbnail-container .entry-thumbnail {
-	position: absolute;
 	left: 50%;
 	top: 50%;
 	width: auto;
@@ -1922,7 +1919,6 @@ a.nav-link {
     padding: 1.6rem 3.5rem;
     text-align: center;
 	width: 55%;
-	position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
